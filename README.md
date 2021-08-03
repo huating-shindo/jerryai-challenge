@@ -57,7 +57,7 @@ A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201)
 
   ## Directory Layout
  
-    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── src                     # Source files
         ....
     │   ├── model               # Model layer
     │   └── service             # Service layer

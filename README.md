@@ -56,11 +56,12 @@ A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201)
   * Space Complexity: O(N), where N is the size of the range list.
 
   ## Directory Layout
- .
+ 
     ├── src                     # Source files (alternatively `lib` or `app`)
-    │   ├── model               # Model layer(https://github.com/huating-shindo/jerryai-challenge/tree/master/src/main/java/jerryai/model/)
-    │   └── service             # Service layer(https://github.com/huating-shindo/jerryai-challenge/tree/master/src/main/java/jerryai/service/)
-    │         └── impl          # Implementation(https://github.com/huating-shindo/jerryai-challenge/tree/master/src/main/java/jerryai/service/impl)
-    ├── test                    # Junit test(https://github.com/huating-shindo/jerryai-challenge/tree/master/src/test/java)
+        ....
+    │   ├── model               # Model layer
+    │   └── service             # Service layer
+    │         └── impl          # Implementation
+    ├── test                    # Junit test
     ├── pom.xml                 # Build file
-    └── README.md
+    └── README.md               

@@ -22,9 +22,7 @@ A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201)
     String print();
     
 
-## Solution
-
-   ### Merge 
+## Solution - Merge
    
    ### Premise
    Anytime, the range list will keep in order, if 0<i<j<length, then range(i).end<range(j).begin 

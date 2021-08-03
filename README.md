@@ -27,7 +27,7 @@ A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201)
    ### Premise
    Anytime, the range list will keep in order, if 0<i<j<length, then range(i).end<range(j).begin 
    
-   #### 1. Add
+   ### 1. Add
    Iterate the whole existing range list
    * if the existing range's begin is less than the merged range's begin, simply append existing one to the merged list
    * if the existing range's end is larger than the merge range's end
